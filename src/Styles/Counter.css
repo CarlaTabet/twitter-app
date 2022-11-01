@@ -1,0 +1,16 @@
+
+#Likes {
+    margin-top: 0px;
+    font-size: 5px;
+    color: rgb(117, 116, 116);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+button {
+    background-color: white;
+    border-color: rgba(158, 194, 255, 0.967);
+}
+

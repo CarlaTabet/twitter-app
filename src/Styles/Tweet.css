@@ -1,0 +1,105 @@
+
+* {
+    margin: 10px;
+    background-color: rgb(231, 231, 231);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#tweet-container {
+    border: 2px solid rgba(46, 32, 175, 0.967);
+    max-width: 400px;
+    margin-left: 5px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+}
+
+#author-name{
+    margin-top:10px;
+    margin-left: 25px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.967);
+    background-color: rgb(255, 255, 255);
+}
+
+#author-handle{
+    margin-left: 25px;
+    font-size: 15px;
+    color: rgb(98, 98, 98);
+    background-color: rgb(255, 255, 255);
+}
+
+#text {
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+#tweet-footer{
+    margin:0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 12px;
+   
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#pic {
+    margin-left: 15px;
+    margin-top: 15px;
+    max-width: 60px;
+    max-height: 60px;
+    border-radius: 100%; 
+    border: 1px solid black;
+}
+
+#top {
+    display: flex;
+    flex-direction: row;
+}
+
+#tweet-header{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+#author {
+    background-color: white;
+    margin-left: 0px
+}
+
+#feed {
+    background-color: rgb(231, 231, 231);
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 10px;
+    margin-top: 10px;   
+}
+
+.heart {
+    max-height: 20px;
+    margin-left: 6px;
+    margin-top: 5px;
+    padding-top: 10px;
+    max-width: 20px;
+  }
+
+button {
+    background-color: white;
+    border-color: rgba(158, 194, 255, 0.967);
+    max-width: 40px;
+    max-height: 20px;
+    font-size: 10px;
+    color: rgb(117, 116, 116);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-direction: row;
+    margin:0px;
+}
